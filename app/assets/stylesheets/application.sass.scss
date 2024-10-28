@@ -1,6 +1,7 @@
 // app/assets/stylesheets/application.sass.scss
 
 // Mixins
+
 @import "mixins/media";
 
 // Configuration
@@ -9,11 +10,15 @@
 
 // Components
 @import "components/btn";
+
+
 @import "components/error_message";
 @import "components/form";
 @import "components/visually_hidden";
 @import "components/quote";
+@import "components/turbo_progress_bar";
 
 // Layouts
 @import "layouts/container";
 @import "layouts/header";
+@import "components/navbar";
